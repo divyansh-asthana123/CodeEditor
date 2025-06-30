@@ -1,0 +1,19 @@
+{
+  "name": "my-app-backend",
+  "version": "1.0.0",
+  "description": "this is the backend folder for the hackathon app that I have created. In v.1.0.0 we just want a simple user authentication system and to display the name of the current user on the frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
